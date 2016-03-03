@@ -1,5 +1,5 @@
-# openhab-seleniumjs
-Right now, you are able to pull up a demo of the OpenHab UI through selenium only by running a shell script.
+# openhab-seleniumjs (For Mac OS X)
+Right now, you are able to pull up a demo of the OpenHab UI through selenium only by running a shell script. Disclaimer: I am not a Windows developer, so I am not sure if this will run on Windows. This was tested on OSX El Capitan.
 ## Requirements
 1. Please have NodeJS installed
 2. Please follow the instructions here to make sure your system can run with Selenium: https://code.google.com/p/selenium/wiki/WebDriverJs
