@@ -154,3 +154,25 @@ org.openhab.ui.webapp.render.RenderException: Sitemap 'demo' could not be found
 2016-03-02 15:43:54.207 [ERROR] [m.r.internal.engine.RuleEngine] - Error during the execution of startup rule 'Initialize contact states': Could not invoke method: org.openhab.model.script.actions.BusEvent.postUpdate(org.openhab.core.items.Item,java.lang.Number) on instance: null
 2016-03-02 15:43:54.385 [INFO ] [g.openhab.model.script.Weather] - Temperature evolved of 0 degrees.
 2016-03-02 15:44:12.206 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2016-03-03 14:41:16.534 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2016-03-03 14:41:16.538 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.8.1).
+2016-03-03 14:41:17.087 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2016-03-03 14:41:17.108 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2016-03-03 14:41:17.968 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-03-03 14:41:26.909 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2016-03-03 14:41:27.008 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2016-03-03 14:41:27.018 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2016-03-03 14:41:27.020 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2016-03-03 14:41:27.024 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2016-03-03 14:41:27.039 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2016-03-03 14:41:27.089 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2016-03-03 14:41:27.367 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /classicui/openhab.app
+2016-03-03 14:41:29.890 [INFO ] [.service.AbstractActiveService] - NTP Refresh Service has been started
+2016-03-03 14:41:29.898 [INFO ] [.service.AbstractActiveService] - HTTP Refresh Service has been started
+2016-03-03 14:41:29.928 [INFO ] [.p.rrd4j.internal.RRD4jService] - Removing invalid defintion component = null heartbeat = 0 min/max = 0.0/0.0 step = 0 0 archives(s) = [] 0 items(s) = []
+2016-03-03 14:41:37.130 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2016-03-03 14:41:37.535 [ERROR] [m.r.internal.engine.RuleEngine] - Error during the execution of startup rule 'Initialize light states': Could not invoke method: org.openhab.model.script.actions.BusEvent.postUpdate(org.openhab.core.items.Item,java.lang.Number) on instance: null
+2016-03-03 14:41:37.583 [ERROR] [m.r.internal.engine.RuleEngine] - Error during the execution of startup rule 'Initialize heating states': Could not invoke method: org.openhab.model.script.actions.BusEvent.postUpdate(org.openhab.core.items.Item,java.lang.Number) on instance: null
+2016-03-03 14:41:37.629 [ERROR] [m.r.internal.engine.RuleEngine] - Error during the execution of startup rule 'Initialize contact states': Could not invoke method: org.openhab.model.script.actions.BusEvent.postUpdate(org.openhab.core.items.Item,java.lang.Number) on instance: null
+2016-03-03 14:41:37.784 [INFO ] [g.openhab.model.script.Weather] - Temperature evolved of null degrees.
+2016-03-03 14:41:47.029 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API

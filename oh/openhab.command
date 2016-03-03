@@ -1,2 +1,2 @@
-cd Documents/jswebdriver/oh
+cd Documents/openhab-seleniumjs/oh
 ./start.sh
